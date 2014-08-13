@@ -13,6 +13,15 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/sue445/byndler"
   spec.license       = "MIT"
 
+  spec.post_install_message = <<EOS
+
+===============================================
+Would you want to type `gem install bundler`?
+This is `byndler`!
+===============================================
+
+EOS
+
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
