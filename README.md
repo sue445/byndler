@@ -1,4 +1,4 @@
-# Byndler
+# Byndler [![Gem Version](https://badge.fury.io/rb/byndler.svg)](http://badge.fury.io/rb/byndler)
 
 I think you would want to type `gem install bundler`
 
