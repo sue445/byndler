@@ -1,6 +1,6 @@
 # Byndler
 
-TODO: Write a gem description
+I think you would want to type `gem install bundler`
 
 ## Installation
 
